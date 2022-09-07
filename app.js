@@ -15,4 +15,6 @@ changeNameButton.addEventListener('click', () => {
     // console.log('button clicked');
     const name = nameInput.value;
     console.log(name);
+    displayName.textContent = name;
+    nameInput.value = '';
 });
